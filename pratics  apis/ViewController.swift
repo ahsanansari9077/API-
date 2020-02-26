@@ -16,6 +16,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         fetchData() ////function calling
+        
+        
+        
+        
+        //////////testing
+        
+        //done
+        
+        
+        
+        
     }
     
     func fetchData()
@@ -27,7 +38,7 @@ class ViewController: UIViewController {
                 self.arr = try JSONDecoder().decode([dataget].self, from: data! )
                 
                 for mainarr in self.arr{
-                    //  print(mainarr.name, " ", mainarr.capital)
+                      print(mainarr.name, " ", mainarr.capital)
                     self.tableView.reloadData()
                 }
                 
