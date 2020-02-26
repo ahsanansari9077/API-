@@ -15,15 +15,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        fetchData() ////function calling
+        fetchData()
         
-        
-        
-        
-        //////////testing
-        
-        //done
-        
+        ///testing 
+       
         
         
         
